@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>h1タグです</h1>
+    <!-- <h1>h1タグです</h1>
     <h2>h2タグです</h2>
     <h3>h3タグです</h3>
     <h4>h4タグです</h4>
@@ -30,20 +30,50 @@
         <ul>
             <li>墨点</li>
             <li>墨点</li>
-        </ul>
+        </ul> -->
 
-        <img src="logo.png" alt="PLOT 画像">
-        <br><br>
+    <img src="logo.png" alt="PLOT 画像">
+    <br><br>
     <a href="https://plotacademy.jp/">PLOT ホームページへ</a>
 
-    <br><br>
+    <!-- <br><br>
 
     <table>
         <tr>
             <th>見出し１</th>
             <th>見出し２</th>
             </tr>
-        </table>
+        </table> -->
+
+    <form action="" method="get">
+        <p>氏名</p>
+        <label for="name">氏名</label>
+        <input type="text" name="" id="" placeholder="氏名を入力してください">
+        <p>パスワード</p>
+        <input type="password" name="" id="">
+        <p>メールアドレス</p>
+        <input type="email" name="" id="">
+
+        <p>年齢</p>
+        <input type="number" name="" id="" min="0" max="120">
+        <p>予約日</p>
+        <input type="date" name="" id="">
+        <p>チェックボックス</p>
+        <input type="checkbox" name="" id="" value="選択肢1" checked>選択肢1
+        <input type="checkbox" name="" id="" value="選択肢2">選択し2
+        <input type="checkbox" name="" id="" value="選択肢3">選択肢3
+
+        <p>ラジオボタン</p>
+        <input type="radio" name="choice" id="" value="選択肢1" checked>選択肢1
+        <input type="radio" name="choice" id="" value="選択肢2">選択肢2
+        <input type="radio" name="choice" id="" value="選択肢2" disabled>選択肢3
+
+        <p>セレクトボックス</p>
+        <select name="address" id="">
+            <option value="1">北海道</option>
+            <option value="2">東京</option>
+            <option value="3" disabled>沖縄</option>
+    </form>
 </body>
 
 </html>
